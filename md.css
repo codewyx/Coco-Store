@@ -76,6 +76,10 @@ left: 110%;
 top: 60%;
 transform: translate(-50%, -50%);
 }
+.k3 {
+position: absolute;
+left: 60%;
+}
 @font-face {
   font-family: "iconfont"; /* Project id 2516453 */
   src: url("//at.alicdn.com/t/font_2516453_g6qjhhqblt9.woff2?t=1620545333370")
@@ -96,7 +100,7 @@ transform: translate(-50%, -50%);
 }
 
 .ad {
-  width: 800px;
+  width:700px;
   height: 60xp;
   background-color: #fff;
   align-items: center;
