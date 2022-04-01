@@ -109,12 +109,12 @@
       <div class="mdui-dialog-title">对不起</div>
       <div class="mdui-dialog-content">再见，因为特殊原因，本项目到此为止，将于2022-4-2结束<div>
       <div class="mdui-dialog-actions">
-        <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#example-1'}" >好的</button>
+        <button class="mdui-btn mdui-ripple" mdui-dialog-cancel>好的</button>
 
       </div>
     </div>
 
- <div class="mdui-dialog" id="example-1">
+ <div class="mdui-dialog" id="dialog1">
       <div class="mdui-dialog-title">哈哈</div>
       <div class="mdui-dialog-content">愚人节快乐！</div>
       <div class="mdui-dialog-actions">
@@ -127,7 +127,7 @@
     <script src="./js/mdui.min.js"></script>
 	    <script>var $ = mdui.$;
 var inst = new mdui.Dialog('#dialog');
-
+var inst1 = new mdui.Dialog('#dialog1');
   inst.open();
 </script>
   </body>
